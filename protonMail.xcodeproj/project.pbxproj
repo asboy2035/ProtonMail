@@ -24,7 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5ED5AFBF2CFF636F00F39B21 /* protonMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = protonMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED5AFBF2CFF636F00F39B21 /* Proton Mail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proton Mail.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED5AFD02CFF637100F39B21 /* protonMailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = protonMailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED5AFDA2CFF637100F39B21 /* protonMailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = protonMailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,7 +85,7 @@
 		5ED5AFC02CFF636F00F39B21 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5ED5AFBF2CFF636F00F39B21 /* protonMail.app */,
+				5ED5AFBF2CFF636F00F39B21 /* Proton Mail.app */,
 				5ED5AFD02CFF637100F39B21 /* protonMailTests.xctest */,
 				5ED5AFDA2CFF637100F39B21 /* protonMailUITests.xctest */,
 			);
@@ -114,7 +114,7 @@
 			packageProductDependencies = (
 			);
 			productName = protonMail;
-			productReference = 5ED5AFBF2CFF636F00F39B21 /* protonMail.app */;
+			productReference = 5ED5AFBF2CFF636F00F39B21 /* Proton Mail.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5ED5AFCF2CFF637100F39B21 /* protonMailTests */ = {
@@ -401,14 +401,17 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Proton Mail";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ash.protonMail;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = ash.protonMail.client;
+				PRODUCT_NAME = "Proton Mail";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -428,14 +431,17 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Proton Mail";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ash.protonMail;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = ash.protonMail.client;
+				PRODUCT_NAME = "Proton Mail";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
